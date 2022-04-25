@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #00012A 44.48%, #000124 52.16%, #000000 118.12%);
+}
+
+
+.logo {
+
+    position: absolute;
+    top: 8%;
+    margin-left: 5%;
+}
+
+.p1 {
+    position: relative;
+    top: 110px;
+    font-family: 'Space Grotesk';
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 29px;
+    margin-left: 5%;
+    color: #ffffff;
+
+}
+
+.circulo {
+
+    position: absolute;
+    width: 350px;
+    height: 420px;
+    top: -249px;
+    background: rgb(155, 81, 224);
+    filter: blur(206.736px);
+    
+}
+
+.circulo2 {
+
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    top: -100px;
+    background: rgb(188, 107, 217);
+    filter: blur(206.736px);
+
+}
+
+.pontinho1 {
+
+    position: absolute;
+    width: 32%;
+    left: 17%;
+    top: 58%;
+
+}
+
+.pontinho2 {
+
+    position:absolute;
+    width: 50%;
+    left: -5%;
+    top: 5%;
+}
+
+.fundo1 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 0%;
+    background: linear-gradient(180deg, rgba(82, 0, 255, 0) 0%, #631aff2f 41.67%);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.texto-fundo {
+    position: absolute;
+    width: 90px;
+    height: 500px;
+    top: -10%;
+    left: -5%;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 630;
+    font-size: 450px;
+    line-height: 800px;
+
+    color: rgba(225, 225, 225, 0.06);
+
+    transform: rotate(-90deg);
+}
+.item1 {
+
+    position: relative;
+    top: 110px;
+    left: 20%;
+    
+
+}
+
+.item2 {
+
+    position: relative;
+    top: 130px;
+    left: 0%;
+    
+}
+
+/* Formulário */
+
+.fundo3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+
+    position: absolute;
+    width: 30%;
+    height: 95%;
+    left: 894px;
+    top: 2px;
+
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+}
